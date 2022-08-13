@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            height:600px;
+            width: 95%;
+            border: 0px solid red;
+            margin: auto;
+            display: flex;
+        }
+        .layout{
+            height:80%;
+            width:40%;
+            border: 0px solid teal;
+            margin: auto;
+
+        }.grand1{
+            height: 45%;
+            width: 40%;
+            border: 0px solid yellow;
+            margin: auto;
+        }
+        .grand1 > img{
+            width: 100%;
+        }
+        .grand2{
+            height: 20%;
+            width: 100%;
+            border: 0px solid green;
+            margin-top: 60px;
+            
+        }
+        .grand2 > h1{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 30px;
+            margin:-5px;
+        }
+        .grand2 > p{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 25px;
+            color: grey;
+        }
+        .grand3{
+            height: 50px;
+            width: 60%;
+            border: 0px solid greenyellow;
+            margin-top: 10px;
+            display: flex;
+        }
+        .grand3 > div{
+            width: 30%;
+            border: px solid purple;
+            margin: auto;
+            font-size: 30px;
+        }
+        .grand3 > #p2{
+            color: grey;
+        }
+        .grand3 > #p3{
+            color: green;
+        }
+        
+    </style>
+</head>
+<body>
+    <!---Parent-->
+    <div class="main">
+
+        <!---Child 1-->
+        <div class="layout">
+            <!---Lay - 1-->
+            <!---grand child 1-->
+            <div class="grand1">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5Of889vrfySBsZdu9mRId_GhMrkjACsFuvA&usqp=CAU" alt="pause"/>
+            </div>
+            <!---grand child 2-->
+            <div class="grand2">
+                <h1>Pause</h1>
+                <p>Men Cotton Long Sleeves Shrug<p>
+            </div>
+            <!--grand child 3-->
+            <div class="grand3">
+                <!---"1"-->
+                <div>₹ 359 </div>
+                <div id="p2">₹ 1499</div>
+                <div id="p3">-76%</div>
+
+            </div>
+
+        </div>
+
+        <!---Child 2-->
+        <div class="layout">
+
+             <!---Lay - 2-->
+            <!---grand child 1-->
+            <div class="grand1">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5Of889vrfySBsZdu9mRId_GhMrkjACsFuvA&usqp=CAU" alt="jubination"/>
+            </div>
+            <!---grand child 2-->
+            <div class="grand2">
+                <h1>Jubination</h1>
+                <p>Men Wool Sleeveless Sweater Pack Of 1<p>
+            </div>
+            <!--grand child 3-->
+            <div class="grand3">
+                <!---"1"-->
+                <div>₹ 799 </div>
+                <div id="p2">₹ 1499</div>
+                <div id="p3">-47%</div>
+
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
